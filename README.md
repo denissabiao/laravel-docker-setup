@@ -10,21 +10,10 @@ Clone Laravel Files
 git clone https://github.com/laravel/laravel.git app-laravel
 ```
 
-Copy docker-compose.yml, Dockerfile and docker/ directory files to your project
-```sh
-cp -rf setup-docker-laravel/* app-laravel/
-```
-```sh
-cd app-laravel/
-```
-
-
 Create .env File
 ```sh
 cp .env.example .env
 ```
-
-
 
 Start project containers
 ```sh
